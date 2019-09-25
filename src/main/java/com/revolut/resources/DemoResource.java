@@ -2,7 +2,7 @@ package com.revolut.resources;
 
 import com.codahale.metrics.annotation.Timed;
 import com.google.common.base.Optional;
-import com.revolut.api.Representation;
+import com.revolut.core.Representation;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
