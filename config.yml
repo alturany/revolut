@@ -1,0 +1,8 @@
+logging:
+  level: INFO
+  loggers:
+    com.revolut: DEBUG
+
+message: Hi %s!, now you will learn about %s from Stack Abuse!
+firstParameter: Friend
+secondParameter: Dropwizard
