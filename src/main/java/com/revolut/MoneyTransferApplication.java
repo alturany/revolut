@@ -30,7 +30,7 @@ public class MoneyTransferApplication extends Application<MoneyTransferConfigura
 
     @Override
     public void initialize(final Bootstrap<MoneyTransferConfiguration> bootstrap) {
-        // TODO: application initialization
+        bootstrap.addBundle(hibernate);
     }
 
     @Override
